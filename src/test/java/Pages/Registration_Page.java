@@ -82,7 +82,7 @@ public class Registration_Page extends WebUtilities {
     }
 
     public void remove_Ad_and_FocusOn_WebElement() {
-        explicitwait().until(ExpectedConditions.visibilityOf(adremove)).click();
+        //explicitwait().until(ExpectedConditions.visibilityOf(adremove)).click();
       //  adremove.click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;        //  as Newsletter checkbox showing Element not clickable as Ad is covering it
         jse.executeScript("arguments[0].scrollIntoView(true);", newsletter);        // therfore we Focus on to Webelement using javascript
