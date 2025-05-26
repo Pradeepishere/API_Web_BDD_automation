@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.Map;
@@ -81,7 +82,8 @@ public class Registration_Page extends WebUtilities {
     }
 
     public void remove_Ad_and_FocusOn_WebElement() {
-        adremove.click();
+        explicitwait().until(ExpectedConditions.visibilityOf(adremove)).click();
+      //  adremove.click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;        //  as Newsletter checkbox showing Element not clickable as Ad is covering it
         jse.executeScript("arguments[0].scrollIntoView(true);", newsletter);        // therfore we Focus on to Webelement using javascript
     }

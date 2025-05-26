@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class)
 @CucumberOptions( features = "src/test/java/resources/Web/features",
 					glue= "stepDefinitions",
-					tags = "@HomePage",
+					//tags = "@HomePage",
 					plugin = {"pretty", "html:target/cucumber-reports/Cucumber.html"},
 		 					// { "pretty", "json:target/cucumber-reports/Cucumber.json" },
 							//	"junit:target/cucumber-reports/Cucumber.xml"
