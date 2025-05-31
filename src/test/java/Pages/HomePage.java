@@ -16,10 +16,18 @@ public class HomePage extends WebUtilities{
 	WebDriver driver;
     @FindBy(xpath = "//a[normalize-space()='Home']")
     WebElement homeIcon;
+    @FindBy(xpath = "//a[@href='/login']")
+    WebElement login_signUp_icon;
     @FindBy(xpath = "//a[starts-with(normalize-space(),'Logged in as')]")
     WebElement loggedinas;
     @FindBy(xpath = "//a[.=' Delete Account']")
     WebElement deleteaccount;
+    @FindBy(xpath = "//a[@href='/logout']")
+    WebElement logout;
+    @FindBy(xpath = "//a[@href='/products']")
+    WebElement products_icon;
+    @FindBy(xpath = "//a[@href='/view_cart']")
+    WebElement cart_icon;
 
     public HomePage(WebDriver driver)
     {
@@ -44,6 +52,8 @@ public class HomePage extends WebUtilities{
         explicitwait().until(ExpectedConditions.visibilityOf(homeIcon));
 
         System.out.println("Home icon Text : "+ homeIcon.getText());
+
+       // Assert.assertFalse(true);
     }
     //  *********************************
 
@@ -57,8 +67,25 @@ public class HomePage extends WebUtilities{
         deleteaccount.click();
     }
 
-    public void close_browser()
+    public void click_on_Products_Icon()
     {
-        driver.quit();
+        products_icon.click();
     }
+    public void click_on_cart_Icon()
+    {
+        cart_icon.click();
+    }
+
+
+    public void logout()
+    {
+        if ( !login_signUp_icon.isDisplayed() || logout.isDisplayed())
+        {
+            logout.click();
+        }
+        else
+            System.out.println(" UNABLE TO LOGIN" +
+                    ", Already Registered with Email and Name ");
+    }
+
 }

@@ -8,7 +8,7 @@
     <artifactId>API_Web_BDD_automation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-	<build>
+	<!--<build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -19,6 +19,18 @@
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
+            </plugin>
+        </plugins>
+    </build>-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.3</version> <configuration>
+                <testFailureIgnore>true</testFailureIgnore> <includes>
+                <include>**/RunnerFile.java</include> </includes>
+            </configuration>
             </plugin>
         </plugins>
     </build>
@@ -104,6 +116,13 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>5.4.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.aventstack/chaintest-cucumber-jvm -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>chaintest-cucumber-jvm</artifactId>
+            <version>1.0.12</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

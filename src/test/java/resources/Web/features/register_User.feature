@@ -1,13 +1,15 @@
 Feature: Registering user
 
-	@HomePage
-	Scenario: Launch browser and verify Home page
+	Background:
 		Given launch chrome browser
 		When Navigate to "https://automationexercise.com"
 		Then Verify that "Home" is visible
 
-		When Click on "SignUp_Icon" button
+		When Click on "LoginSignUp_Icon" button
 		Then Verify that "New User Signup!" is visible
+
+	@registeruser
+	Scenario: Register User
 
 		When Enter name & Email from Excel
 		And Click on "SignUp_btn" button
@@ -41,3 +43,14 @@ Feature: Registering user
 		When Click on "Delete Account" button
 		Then Verify that "ACCOUNT DELETED!" is visible
 		And Click on "Continue" button
+
+	@registeruser
+	Scenario Outline: Register User with existing email
+
+		When Enter "<Name>" and "<Email>" for Already Registered user in signUp Page
+		And Click on "SignUp_btn" button
+		Then Verify that "Email Address already exist!" is visible
+
+		Examples:
+			| Name 	| Email 			  |
+			| Masti	| masti123@gmail.com  |

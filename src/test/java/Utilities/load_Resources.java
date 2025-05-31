@@ -9,7 +9,7 @@ import java.util.Properties;
 public class load_Resources {
     public static String load_Locator_Properties(String locator) {
         Properties prop = new Properties();
-        String propertyFileName = "locators.properties";
+        String propertyFileName = "resources/Properties_files/locators.properties";
 
         try    (InputStream inputStream = load_Resources.class.getClassLoader().getResourceAsStream(propertyFileName ) )
         {
@@ -30,7 +30,7 @@ public class load_Resources {
 
     public static String get_Excel_Property_name(String text) {
         Properties prop = new Properties();
-        try (FileInputStream fis = new FileInputStream("src/test/java/resources/Test_Data/excel.properties"))
+        try (FileInputStream fis = new FileInputStream("src/test/java/resources/Properties_files/excel.properties"))
         {
             if (fis != null) {
                 prop.load(fis);
