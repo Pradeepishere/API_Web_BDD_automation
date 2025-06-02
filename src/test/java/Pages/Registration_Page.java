@@ -84,9 +84,9 @@ public class Registration_Page extends WebUtilities {
     public void remove_Ad_and_FocusOn_WebElement() {
 
         System.out.println("AD remove : "+explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed());
-        if (explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed())
+        if  (adremove.isDisplayed())      // (explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed())
         {
-            explicitwait().until(ExpectedConditions.visibilityOf(adremove)).click();
+            adremove.click();
         }
 
         JavascriptExecutor jse = (JavascriptExecutor) driver;        //  as Newsletter checkbox showing Element not clickable as Ad is covering it
