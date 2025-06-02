@@ -55,8 +55,8 @@ public class WebUtilities {
 
 	public Map<String, String> access_Excel_Data()
 	{
-		String filepath = load_Resources.get_Excel_Property_name("filepath");
-		String sheetName = load_Resources.get_Excel_Property_name("sheet_Name");
+		String filepath = load_Resources.get_Property_name("filepath");
+		String sheetName = load_Resources.get_Property_name("sheet_Name");
 		System.out.println(filepath +" ,,, " + sheetName );
 
         List<Map<String ,String>> testData = null;

@@ -22,8 +22,7 @@ public class PageObject_Manager {
     }
     public HomePage getHome_page()
     {
-        home_page = new HomePage(driver);
-        return home_page;
+        return (home_page == null)   ?    home_page = new HomePage(driver)   :   home_page;
     }
     public Login_SignUp_Page getLogin_signUp_page()
     {

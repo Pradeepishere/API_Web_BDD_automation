@@ -1,5 +1,8 @@
 package Pages;
 
+import Utilities.Log;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import Utilities.WebUtilities;
@@ -14,6 +17,7 @@ import java.time.Duration;
 
 public class HomePage extends WebUtilities{
 	WebDriver driver;
+
     @FindBy(xpath = "//a[normalize-space()='Home']")
     WebElement homeIcon;
     @FindBy(xpath = "//a[@href='/login']")
@@ -33,6 +37,7 @@ public class HomePage extends WebUtilities{
     {
         this.driver = driver;
         PageFactory.initElements(driver,this);
+        Log.info("HomePage initialized.");
     }
 
     public void launch_max_browser()
@@ -42,7 +47,9 @@ public class HomePage extends WebUtilities{
     }
     public void go_to_URL(String url)
     {
+        Log.info("Navigating to URL: " + url);
         driver.get(url);
+        Log.info("Successfully navigated to " + url);
     }
 	public void homePage_visible()
     {

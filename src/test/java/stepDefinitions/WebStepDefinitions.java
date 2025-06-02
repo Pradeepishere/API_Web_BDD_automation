@@ -1,12 +1,15 @@
 package stepDefinitions;
 
 import Pages.*;
+import Utilities.Log;
 import Utilities.Test_Context_Setup;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -16,31 +19,36 @@ import java.util.Map;
 public class WebStepDefinitions
 {
     Test_Context_Setup tcs;
+    PageObject_Manager pageObject_manager;
     HomePage homePage;
     Login_SignUp_Page login_signUp_page;
     Registration_Page registration_page;
     Continue_Delete_Page continue_del_page;
     Products_Page products_page;
     Cart_Checkout_Page cart_checkout_page;
+    public final Logger log = LogManager.getLogger(WebStepDefinitions.class);
 
     public WebStepDefinitions(Test_Context_Setup tcs)
     {
         this.tcs = tcs;
-        this.homePage = tcs.pageObject_manager.getHome_page();
-        this.login_signUp_page = tcs.pageObject_manager.getLogin_signUp_page();
-        this.registration_page = tcs.pageObject_manager.getRegistration_page();
-        this.continue_del_page = tcs.pageObject_manager.getContinue_page();
-        this.products_page = tcs.pageObject_manager.getProducts_page();
-        this.cart_checkout_page = tcs.pageObject_manager.getCart_checkout_page();
+        this.pageObject_manager = new PageObject_Manager(tcs.getDriver());
+        this.homePage = pageObject_manager.getHome_page();
+        this.login_signUp_page = pageObject_manager.getLogin_signUp_page();
+        this.registration_page = pageObject_manager.getRegistration_page();
+        this.continue_del_page = pageObject_manager.getContinue_page();
+        this.products_page = pageObject_manager.getProducts_page();
+        this.cart_checkout_page = pageObject_manager.getCart_checkout_page();
     }
     @Given("launch chrome browser")
     public void launch_browser()
     {
         homePage.launch_max_browser();
     }
+
     @When("Navigate to {string}")
     public void navigate_to_URL(String url)  {
         homePage.go_to_URL(url);
+        Log.debug("Navigated to Automation Exercise homepage.");
 
       //  System.out.println(load_Resources.get_Excel_Property_name("filepath")
         //          +" ,***, "+ load_Resources.get_Excel_Property_name("sheet_Name"));
@@ -200,6 +208,7 @@ public class WebStepDefinitions
     public void enter_Correct_Email_password(Map<String,String> dataTable)
     {
         login_signUp_page.enter_Correct_email_Pwd(dataTable);
+        Log.info("Entered email and password.");
     }
     @When("Enter Incorrect {string} and {string}")
     public void enter_InCorrect_Email_password(String email, String password)
