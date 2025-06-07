@@ -348,3 +348,17 @@
 2025-06-07 18:09:14.777 [main] INFO  stepDefinitions.Hooks - Scenario 'Veiw Cart and Checkout Page for purchase order' passed.
 2025-06-07 18:09:15.233 [main] INFO  Utilities.Log - WebDriver quit successfully.
 2025-06-07 18:09:15.280 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 18:25:47.336 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 18:25:47.349 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User
+2025-06-07 18:25:47.781 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:25:47.798 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:25:48.783 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:25:48.790 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User
+2025-06-07 18:25:48.811 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:25:48.868 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:25:48.877 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:25:56.985 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:26:14.326 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with status: PASSED
+2025-06-07 18:26:14.328 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User' passed.
+2025-06-07 18:26:14.607 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:26:14.856 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User
