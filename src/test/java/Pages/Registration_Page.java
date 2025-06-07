@@ -102,6 +102,10 @@ public class Registration_Page extends WebUtilities {
             System.out.println("Error: " + e.getMessage());
             e.printStackTrace();
         }
+        finally {
+            JavascriptExecutor jse = (JavascriptExecutor) driver;        //  as Newsletter checkbox showing Element not clickable as Ad is covering it
+            jse.executeScript("arguments[0].scrollIntoView(true);", newsletter);        // therfore we Focus on to Webelement using javascript
+        }
 
        // System.out.println("AD remove : "+explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed());
 //        if  (adremove.isDisplayed() || explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed() )  // (explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed())
@@ -112,9 +116,6 @@ public class Registration_Page extends WebUtilities {
 //             // adremove.click();
 //             }
 //        else System.out.println("Ad not present");
-
-        JavascriptExecutor jse = (JavascriptExecutor) driver;        //  as Newsletter checkbox showing Element not clickable as Ad is covering it
-        jse.executeScript("arguments[0].scrollIntoView(true);", newsletter);        // therfore we Focus on to Webelement using javascript
     }
 
     public void checkBox_for_NewsLetter() {

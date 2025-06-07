@@ -558,3 +558,30 @@
 2025-06-07 20:54:30.599 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User with existing email' passed.
 2025-06-07 20:54:30.974 [main] INFO  Utilities.Log - WebDriver quit successfully.
 2025-06-07 20:54:31.056 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User with existing email
+2025-06-07 21:14:42.918 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 21:14:42.930 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User
+2025-06-07 21:14:43.450 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 21:14:43.474 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 21:14:44.641 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 21:14:44.649 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User
+2025-06-07 21:14:44.667 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 21:14:44.741 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 21:14:44.749 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 21:14:50.910 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 21:15:15.998 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with status: PASSED
+2025-06-07 21:15:16.001 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User' passed.
+2025-06-07 21:15:16.352 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 21:15:16.683 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User
+2025-06-07 21:15:16.693 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User with existing email
+2025-06-07 21:15:16.707 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 21:15:16.746 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 21:15:17.647 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 21:15:17.647 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User with existing email
+2025-06-07 21:15:17.647 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 21:15:17.745 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 21:15:17.745 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 21:15:21.531 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 21:15:25.519 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with existing email with status: PASSED
+2025-06-07 21:15:25.519 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User with existing email' passed.
+2025-06-07 21:15:25.773 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 21:15:25.805 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User with existing email
