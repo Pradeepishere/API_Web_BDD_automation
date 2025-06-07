@@ -1,0 +1,350 @@
+2025-06-07 17:29:01.619 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 17:29:01.640 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with Incorrect email and password
+2025-06-07 17:29:05.273 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:29:05.310 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:29:07.347 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:29:07.349 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with Incorrect email and password
+2025-06-07 17:29:07.380 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:29:07.464 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:29:12.381 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:29:16.721 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:29:16.724 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with Incorrect email and password with status: PASSED
+2025-06-07 17:29:16.724 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with Incorrect email and password' passed.
+2025-06-07 17:29:17.173 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with Incorrect email and password
+2025-06-07 17:36:23.341 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-06-07 17:36:24.706 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 17:36:24.717 [main] INFO  stepDefinitions.Hooks - Starting scenario: Add Product to cart
+2025-06-07 17:36:25.198 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:36:25.220 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:36:26.534 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:36:26.535 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Add Product to cart
+2025-06-07 17:36:26.616 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:36:26.709 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:36:26.719 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:36:30.363 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:36:32.646 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 17:36:44.424 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Add Product to cart with status: PASSED
+2025-06-07 17:36:44.426 [main] INFO  stepDefinitions.Hooks - Scenario 'Add Product to cart' passed.
+2025-06-07 17:36:44.803 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:36:45.398 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Add Product to cart
+2025-06-07 17:36:45.437 [main] INFO  stepDefinitions.Hooks - Starting scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 17:36:45.462 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:36:45.477 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:36:46.227 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:36:46.227 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 17:36:46.230 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:36:46.302 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:36:46.310 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:36:55.128 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:36:57.008 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 17:36:59.440 [main] ERROR stepDefinitions.Hooks - Scenario failed: Veiw Cart and Checkout Page for purchase order. Taking screenshot.
+2025-06-07 17:37:00.067 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Veiw Cart and Checkout Page for purchase order with status: FAILED
+2025-06-07 17:37:00.068 [main] ERROR stepDefinitions.Hooks - Scenario 'Veiw Cart and Checkout Page for purchase order' failed.
+2025-06-07 17:37:00.288 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:37:00.329 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 17:37:00.351 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with correct email and password
+2025-06-07 17:37:00.363 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:37:00.372 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:37:01.311 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:37:01.311 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with correct email and password
+2025-06-07 17:37:01.312 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:37:01.365 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:37:01.368 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:37:06.160 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:37:08.499 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 17:37:11.969 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with correct email and password with status: PASSED
+2025-06-07 17:37:11.969 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with correct email and password' passed.
+2025-06-07 17:37:12.230 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:37:12.253 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with correct email and password
+2025-06-07 17:37:12.256 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with Incorrect email and password
+2025-06-07 17:37:12.266 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:37:12.272 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:37:13.003 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:37:13.004 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with Incorrect email and password
+2025-06-07 17:37:13.008 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:37:13.070 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:37:13.075 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:37:20.880 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:37:23.375 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with Incorrect email and password with status: PASSED
+2025-06-07 17:37:23.376 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with Incorrect email and password' passed.
+2025-06-07 17:37:23.610 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:37:23.636 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with Incorrect email and password
+2025-06-07 17:37:23.644 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User
+2025-06-07 17:37:23.657 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:37:23.662 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:37:24.336 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:37:24.336 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User
+2025-06-07 17:37:24.337 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:37:24.403 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:37:24.407 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:37:50.473 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:38:05.634 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with status: PASSED
+2025-06-07 17:38:05.634 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User' passed.
+2025-06-07 17:38:05.967 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:38:05.988 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User
+2025-06-07 17:38:05.997 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User with existing email
+2025-06-07 17:38:06.008 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:38:06.019 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:38:06.735 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:38:06.737 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User with existing email
+2025-06-07 17:38:06.739 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:38:06.800 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:38:06.802 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:38:12.358 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:38:14.898 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with existing email with status: PASSED
+2025-06-07 17:38:14.898 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User with existing email' passed.
+2025-06-07 17:38:15.116 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:38:15.144 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User with existing email
+2025-06-07 17:52:31.808 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-06-07 17:52:32.715 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 17:52:32.725 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User
+2025-06-07 17:52:33.109 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:52:33.122 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:52:34.017 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:52:34.017 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User
+2025-06-07 17:52:34.037 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:52:34.101 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:52:34.106 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:52:40.714 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:52:54.267 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with status: PASSED
+2025-06-07 17:52:54.271 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User' passed.
+2025-06-07 17:52:54.652 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:52:55.209 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User
+2025-06-07 17:52:55.232 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User with existing email
+2025-06-07 17:52:55.256 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:52:55.272 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:52:55.927 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:52:55.927 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User with existing email
+2025-06-07 17:52:55.929 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:52:56.001 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:52:56.006 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:53:01.284 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:53:05.041 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with existing email with status: PASSED
+2025-06-07 17:53:05.041 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User with existing email' passed.
+2025-06-07 17:53:05.307 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:53:05.333 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User with existing email
+2025-06-07 17:53:05.341 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with correct email and password
+2025-06-07 17:53:05.351 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:53:05.357 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:53:06.101 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:53:06.102 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with correct email and password
+2025-06-07 17:53:06.104 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:53:06.167 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:53:06.176 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:53:11.427 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:53:12.864 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 17:53:16.275 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with correct email and password with status: PASSED
+2025-06-07 17:53:16.276 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with correct email and password' passed.
+2025-06-07 17:53:16.525 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:53:16.547 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with correct email and password
+2025-06-07 17:53:16.552 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with Incorrect email and password
+2025-06-07 17:53:16.571 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:53:16.577 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:53:17.257 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:53:17.258 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with Incorrect email and password
+2025-06-07 17:53:17.259 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:53:17.317 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:53:17.322 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:53:25.887 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:53:30.050 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with Incorrect email and password with status: PASSED
+2025-06-07 17:53:30.050 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with Incorrect email and password' passed.
+2025-06-07 17:53:30.289 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:53:30.307 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with Incorrect email and password
+2025-06-07 17:53:30.314 [main] INFO  stepDefinitions.Hooks - Starting scenario: Add Product to cart
+2025-06-07 17:53:30.324 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:53:30.329 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:53:30.943 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:53:30.943 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Add Product to cart
+2025-06-07 17:53:30.944 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:53:30.987 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:53:30.992 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:53:37.613 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:53:39.467 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 17:53:54.610 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Add Product to cart with status: PASSED
+2025-06-07 17:53:54.610 [main] INFO  stepDefinitions.Hooks - Scenario 'Add Product to cart' passed.
+2025-06-07 17:53:54.824 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:53:54.845 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Add Product to cart
+2025-06-07 17:53:54.853 [main] INFO  stepDefinitions.Hooks - Starting scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 17:53:54.874 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:53:54.878 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:53:55.526 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:53:55.526 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 17:53:55.527 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:53:55.583 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:53:55.587 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:53:57.733 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:54:03.554 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 17:54:22.557 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Veiw Cart and Checkout Page for purchase order with status: PASSED
+2025-06-07 17:54:22.558 [main] INFO  stepDefinitions.Hooks - Scenario 'Veiw Cart and Checkout Page for purchase order' passed.
+2025-06-07 17:54:22.860 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:54:22.896 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 17:59:31.863 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 17:59:31.872 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with correct email and password
+2025-06-07 17:59:32.240 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:59:32.258 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:59:33.205 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:59:33.205 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with correct email and password
+2025-06-07 17:59:33.234 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:59:33.282 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:59:33.294 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:59:39.221 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:59:41.025 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 17:59:45.794 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with correct email and password with status: PASSED
+2025-06-07 17:59:45.796 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with correct email and password' passed.
+2025-06-07 17:59:46.124 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:59:46.730 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with correct email and password
+2025-06-07 17:59:46.753 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with Incorrect email and password
+2025-06-07 17:59:46.776 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 17:59:46.791 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 17:59:47.491 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 17:59:47.492 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with Incorrect email and password
+2025-06-07 17:59:47.494 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 17:59:47.553 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 17:59:47.559 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 17:59:53.040 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 17:59:55.544 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with Incorrect email and password with status: PASSED
+2025-06-07 17:59:55.544 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with Incorrect email and password' passed.
+2025-06-07 17:59:55.753 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 17:59:55.779 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with Incorrect email and password
+2025-06-07 18:01:10.485 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 18:01:10.492 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User
+2025-06-07 18:01:10.903 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:01:10.933 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:01:11.850 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:01:11.851 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User
+2025-06-07 18:01:11.886 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:01:11.951 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:01:11.959 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:01:16.420 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:01:29.851 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with status: PASSED
+2025-06-07 18:01:29.852 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User' passed.
+2025-06-07 18:01:30.229 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:01:30.786 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User
+2025-06-07 18:01:30.806 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User with existing email
+2025-06-07 18:01:30.840 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:01:30.859 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:01:31.596 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:01:31.598 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User with existing email
+2025-06-07 18:01:31.600 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:01:31.652 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:01:31.656 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:01:39.797 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:01:43.400 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with existing email with status: PASSED
+2025-06-07 18:01:43.400 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User with existing email' passed.
+2025-06-07 18:01:43.670 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:01:43.711 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User with existing email
+2025-06-07 18:02:25.166 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 18:02:25.175 [main] INFO  stepDefinitions.Hooks - Starting scenario: Add Product to cart
+2025-06-07 18:02:25.514 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:02:25.532 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:02:26.534 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:02:26.535 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Add Product to cart
+2025-06-07 18:02:26.566 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:02:26.636 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:02:26.641 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:02:32.323 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:02:33.924 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 18:02:46.371 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Add Product to cart with status: PASSED
+2025-06-07 18:02:46.372 [main] INFO  stepDefinitions.Hooks - Scenario 'Add Product to cart' passed.
+2025-06-07 18:02:46.696 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:02:47.318 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Add Product to cart
+2025-06-07 18:02:47.352 [main] INFO  stepDefinitions.Hooks - Starting scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 18:02:47.378 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:02:47.392 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:02:48.064 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:02:48.065 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 18:02:48.068 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:02:48.137 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:02:48.141 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:02:54.002 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:02:56.383 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 18:03:11.879 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Veiw Cart and Checkout Page for purchase order with status: PASSED
+2025-06-07 18:03:11.880 [main] INFO  stepDefinitions.Hooks - Scenario 'Veiw Cart and Checkout Page for purchase order' passed.
+2025-06-07 18:03:12.102 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:03:12.125 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 18:03:25.252 [main] INFO  stepDefinitions.Hooks - ExtentReports initialized.
+2025-06-07 18:03:25.260 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User
+2025-06-07 18:03:25.625 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:03:25.641 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:03:26.554 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:03:26.555 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User
+2025-06-07 18:03:26.571 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:03:26.629 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:03:26.638 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:03:32.522 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:03:47.201 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with status: PASSED
+2025-06-07 18:03:47.202 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User' passed.
+2025-06-07 18:03:47.537 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:03:48.133 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User
+2025-06-07 18:03:48.155 [main] INFO  stepDefinitions.Hooks - Starting scenario: Register User with existing email
+2025-06-07 18:03:48.188 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:03:48.207 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:03:48.901 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:03:48.902 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Register User with existing email
+2025-06-07 18:03:48.904 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:03:48.966 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:03:48.970 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:03:56.856 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:04:00.400 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Register User with existing email with status: PASSED
+2025-06-07 18:04:00.400 [main] INFO  stepDefinitions.Hooks - Scenario 'Register User with existing email' passed.
+2025-06-07 18:04:00.631 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:04:00.661 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Register User with existing email
+2025-06-07 18:04:00.671 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with correct email and password
+2025-06-07 18:04:00.687 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:04:00.693 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:04:01.339 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:04:01.339 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with correct email and password
+2025-06-07 18:04:01.340 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:04:01.392 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:04:01.397 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:04:09.427 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:04:10.842 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 18:04:13.529 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with correct email and password with status: PASSED
+2025-06-07 18:04:13.529 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with correct email and password' passed.
+2025-06-07 18:04:13.747 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:04:13.775 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with correct email and password
+2025-06-07 18:04:13.782 [main] INFO  stepDefinitions.Hooks - Starting scenario: Login User with Incorrect email and password
+2025-06-07 18:04:13.791 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:04:13.798 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:04:14.488 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:04:14.488 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Login User with Incorrect email and password
+2025-06-07 18:04:14.489 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:04:14.541 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:04:14.544 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:04:19.799 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:04:22.229 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Login User with Incorrect email and password with status: PASSED
+2025-06-07 18:04:22.229 [main] INFO  stepDefinitions.Hooks - Scenario 'Login User with Incorrect email and password' passed.
+2025-06-07 18:04:22.448 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:04:22.482 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Login User with Incorrect email and password
+2025-06-07 18:04:22.490 [main] INFO  stepDefinitions.Hooks - Starting scenario: Add Product to cart
+2025-06-07 18:04:22.502 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:04:22.506 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:04:23.144 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:04:23.144 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Add Product to cart
+2025-06-07 18:04:23.146 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:04:23.187 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:04:23.188 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:04:49.687 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:04:52.758 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 18:05:01.026 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Add Product to cart with status: PASSED
+2025-06-07 18:05:01.027 [main] INFO  stepDefinitions.Hooks - Scenario 'Add Product to cart' passed.
+2025-06-07 18:05:01.305 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:05:01.323 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Add Product to cart
+2025-06-07 18:05:01.329 [main] INFO  stepDefinitions.Hooks - Starting scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 18:05:01.337 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 18:05:01.341 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 18:05:02.064 [main] INFO  Utilities.Log - WebDriver initialized successfully.
+2025-06-07 18:05:02.064 [main] INFO  stepDefinitions.Hooks - Extent Test created for scenario: Veiw Cart and Checkout Page for purchase order
+2025-06-07 18:05:02.065 [main] INFO  Utilities.Log - HomePage initialized.
+2025-06-07 18:05:02.108 [main] INFO  Utilities.Log - Maximising Browser
+2025-06-07 18:05:02.109 [main] INFO  Utilities.Log - Navigating to URL: https://automationexercise.com
+2025-06-07 18:06:09.391 [main] INFO  Utilities.Log - Successfully navigated to https://automationexercise.com
+2025-06-07 18:06:10.932 [main] INFO  Utilities.Log - Entered email and password.
+2025-06-07 18:09:14.775 [main] INFO  stepDefinitions.Hooks - Finishing scenario: Veiw Cart and Checkout Page for purchase order with status: PASSED
+2025-06-07 18:09:14.777 [main] INFO  stepDefinitions.Hooks - Scenario 'Veiw Cart and Checkout Page for purchase order' passed.
+2025-06-07 18:09:15.233 [main] INFO  Utilities.Log - WebDriver quit successfully.
+2025-06-07 18:09:15.280 [main] INFO  stepDefinitions.Hooks - ExtentReports flushed for scenario: Veiw Cart and Checkout Page for purchase order

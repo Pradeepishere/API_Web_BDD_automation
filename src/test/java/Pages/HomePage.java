@@ -43,7 +43,8 @@ public class HomePage extends WebUtilities{
     public void launch_max_browser()
     {
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        Log.info("Maximising Browser");
     }
     public void go_to_URL(String url)
     {
@@ -76,7 +77,8 @@ public class HomePage extends WebUtilities{
 
     public void click_on_Products_Icon()
     {
-        products_icon.click();
+        explicitwait().until(ExpectedConditions.elementToBeClickable(products_icon)).click();
+       //s products_icon.click();
     }
     public void click_on_cart_Icon()
     {

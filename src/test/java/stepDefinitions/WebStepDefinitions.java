@@ -240,30 +240,30 @@ public class WebStepDefinitions
 
 
 
-    @After
-    public void tearDownScenario(Scenario scenario) {
-        WebDriver driver = tcs.getWebdriver();
-        if (scenario.isFailed()  && driver != null)
-        {
-            System.out.println("Scenario '" + scenario.getName() + "' failed! Capturing screenshot...");
-            String scenario_name = scenario.getName();
-
-            // tcs.utility.screenShot_Capture(driver, scenario_name);
-            try {
-                byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-                // Embed the screenshot into the Cucumber report
-                scenario.attach(screenshot, "image/png", scenario.getName()+".png");
-                System.out.println("Screenshot captured for failed scenario: " + scenario.getName());
-            } catch (Exception e) {
-                System.err.println("Failed to take screenshot: " + e.getMessage());
-                scenario.attach("Error taking screenshot: " + e.getMessage(), "text/plain", "Screenshot_Error");
-            }
-        }
-        else
-            System.out.println("Finished scenario. Browser closed.");
-            tcs.tearDown();
-
-    }
+    //@After
+    //public void tearDownScenario(Scenario scenario) {
+//        WebDriver driver = tcs.getWebdriver();
+//        if (scenario.isFailed()  && driver != null)
+//        {
+//            System.out.println("Scenario '" + scenario.getName() + "' failed! Capturing screenshot...");
+//            String scenario_name = scenario.getName();
+//
+//            // tcs.utility.screenShot_Capture(driver, scenario_name);
+//            try {
+//                byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+//                // Embed the screenshot into the Cucumber report
+//                scenario.attach(screenshot, "image/png", scenario.getName()+".png");
+//                System.out.println("Screenshot captured for failed scenario: " + scenario.getName());
+//            } catch (Exception e) {
+//                System.err.println("Failed to take screenshot: " + e.getMessage());
+//                scenario.attach("Error taking screenshot: " + e.getMessage(), "text/plain", "Screenshot_Error");
+//            }
+//        }
+//        else
+//            System.out.println("Finished scenario. Browser closed.");
+//            tcs.tearDown();
+//
+//    }
 
 
     }

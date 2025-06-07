@@ -27,6 +27,7 @@ public class WebUtilities {
 		{
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+			Log.info("Starting Browser");
 		}
 		return driver;
 	}

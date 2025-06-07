@@ -86,7 +86,9 @@ public class Registration_Page extends WebUtilities {
         System.out.println("AD remove : "+explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed());
         if  (adremove.isDisplayed())      // (explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed())
         {
-            adremove.click();
+            explicitwait().until(ExpectedConditions.elementToBeClickable(adremove)).click();
+            System.out.println("Ad closed successfully.");
+             // adremove.click();
         }
 
         JavascriptExecutor jse = (JavascriptExecutor) driver;        //  as Newsletter checkbox showing Element not clickable as Ad is covering it
