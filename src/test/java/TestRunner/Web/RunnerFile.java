@@ -17,8 +17,8 @@ import org.testng.annotations.DataProvider;
 					plugin = {	"pretty",			// Prints Cucumber output to the console
 								"html:target/cucumber-reports/cucumber-html-report.html",
 								"html:target/cucumber-reports/cucumber-pretty",
-								"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-							// { "pretty", "json:target/cucumber-reports/Cucumber.json" },
+								"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+								"pretty", "json:target/cucumber-reports/Cucumber.json"
 							//	"junit:target/cucumber-reports/Cucumber.xml"
 							},
 
