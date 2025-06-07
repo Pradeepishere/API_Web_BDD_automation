@@ -2,13 +2,17 @@ package Pages;
 
 import Utilities.WebUtilities;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 
+import java.time.Duration;
 import java.util.Map;
 
 public class Registration_Page extends WebUtilities {
@@ -67,7 +71,8 @@ public class Registration_Page extends WebUtilities {
         PageFactory.initElements(driver, this);
     }
 
-    public void fillAccountDetails(Map<String, String> details) {
+    public void fillAccountDetails(Map<String, String> details)
+    {
         String title = details.get("Title");
         if (title.equalsIgnoreCase("Mr.")) {
             titlemr.click();
@@ -83,15 +88,30 @@ public class Registration_Page extends WebUtilities {
 
     public void remove_Ad_and_FocusOn_WebElement() {
 
-       // System.out.println("AD remove : "+explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed());
-        if  (adremove.isDisplayed() || explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed() )  // (explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed())
-        {
-            System.out.println("Ad present");
-            explicitwait().until(ExpectedConditions.elementToBeClickable(adremove)).click();
-            System.out.println("Ad closed successfully.");
-             // adremove.click();
+        try {
+            Wait<WebDriver> wait = new FluentWait<>(driver)
+                    .withTimeout(Duration.ofSeconds(30))        // Maximum wait time
+                    .pollingEvery(Duration.ofSeconds(2))        // Check every 2 seconds
+                    .ignoring(NoSuchElementException.class);    // Ignore this exception during polling
+
+            WebElement element = wait.until(ExpectedConditions.elementToBeClickable(adremove));
+            element.click();
+            System.out.println("Ad Removed successfully!");
         }
-        else System.out.println("Ad not present");
+        catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+            e.printStackTrace();
+        }
+
+       // System.out.println("AD remove : "+explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed());
+//        if  (adremove.isDisplayed() || explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed() )  // (explicitwait().until(ExpectedConditions.visibilityOf(adremove)).isDisplayed())
+//             {
+//            System.out.println("Ad present");
+//            explicitwait().until(ExpectedConditions.elementToBeClickable(adremove)).click();
+//            System.out.println("Ad closed successfully.");
+//             // adremove.click();
+//             }
+//        else System.out.println("Ad not present");
 
         JavascriptExecutor jse = (JavascriptExecutor) driver;        //  as Newsletter checkbox showing Element not clickable as Ad is covering it
         jse.executeScript("arguments[0].scrollIntoView(true);", newsletter);        // therfore we Focus on to Webelement using javascript

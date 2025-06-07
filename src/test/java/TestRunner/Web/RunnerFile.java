@@ -13,7 +13,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions( features = "src/test/java/resources/Web/features",
 					glue= "stepDefinitions",
-					//tags = "@registeruser",		//"@registeruser or @existinguser",
+					tags = "@registeruser",		//"@registeruser or @existinguser",
 					plugin = {	"pretty",			// Prints Cucumber output to the console
 								"html:target/cucumber-reports/cucumber-html-report.html",
 								"html:target/cucumber-reports/cucumber-pretty",

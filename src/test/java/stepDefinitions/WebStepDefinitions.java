@@ -188,9 +188,9 @@ public class WebStepDefinitions
     @When("Select checkbox {string}")
     public void select_CheckBoxes(String checkbox_text)
     {
-        registration_page.remove_Ad_and_FocusOn_WebElement();
         if(checkbox_text.equalsIgnoreCase("Sign up for our newsletter!"))
         {
+            registration_page.remove_Ad_and_FocusOn_WebElement();
             registration_page.checkBox_for_NewsLetter();
         }
         else if (checkbox_text.equalsIgnoreCase("Receive special offers from our partners!"))
@@ -198,6 +198,7 @@ public class WebStepDefinitions
             registration_page.checkbox_for_ReceiveSpecialOffers();
         }
     }
+
     @When("Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number")
     public void fill_Personel_Details(Map<String,String> data_Table)
     {
